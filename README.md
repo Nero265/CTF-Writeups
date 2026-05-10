@@ -12,6 +12,9 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   DNS tunneling challenge — detecting exfiltrated data through custom queries.
 - **03-login-form-bof**  
  Binary exploitation challenge — abusing off-by-one overflow in C struct to gain admin shell.
+- **04-web-len5**  
+  Web exploitation challenge — exploiting type confusion in Express.js validation.
+
 
 *(More challenges will be added as the repository grows.)*
 
@@ -25,6 +28,10 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 - Web exploitation methods  
 - Python socket scripting  
 - Buffer overflow exploitation in C binaries
+- Express.js request handling & JSON manipulation  
+- Input validation bypass techniques  
+- Type confusion exploitation in JavaScript
+
   
 ---
 
