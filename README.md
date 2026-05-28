@@ -12,6 +12,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Exploiting misconfigured session expiration and public endpoints to perform Session Hijacking.
 - **[picoCTF - Crack the Gate 1](./picoCTF/Web-Exploitation/Crack-the-Gate-1)** 
   Analyzing HTML comments, decoding ROT13 cipher, and injecting custom HTTP headers via `curl` to bypass authentication.
+- **[picoCTF - SSTI1](./picoCTF/Web-Exploitation/SSTI1)** 
+  Identifying Server-Side Template Injection (SSTI) in a Flask/Jinja2 application and escalating it to Remote Code Execution (RCE) to read server files.
 - **04-web-len5**  
   Web exploitation challenge — exploiting type confusion in Express.js validation.
 
