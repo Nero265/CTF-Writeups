@@ -10,6 +10,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 ### 🌐 Web Exploitation
 - **[picoCTF - Old Sessions](./picoCTF/Web-Exploitation/Old-Sessions)** 
   Exploiting misconfigured session expiration and public endpoints to perform Session Hijacking.
+- **[picoCTF - Crack the Gate 1](./picoCTF/Web-Exploitation/Crack-the-Gate-1)** 
+  Analyzing HTML comments, decoding ROT13 cipher, and injecting custom HTTP headers via `curl` to bypass authentication.
 - **04-web-len5**  
   Web exploitation challenge — exploiting type confusion in Express.js validation.
 
