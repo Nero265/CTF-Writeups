@@ -30,27 +30,39 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Binary exploitation challenge — abusing off-by-one overflow in C struct to gain admin shell.
 - **05-weaponizedkey**  
   Reverse engineering challenge — analyzing obfuscated PowerShell script to reconstruct hidden API key.
-  
+
+
+ ### 🧠 General Skills & Automation
+* **picoCTF - Bytemancy 3** - Reverse engineering and network automation challenge — extracting function memory addresses from a compiled binary and automating dynamic responses with raw Little-Endian bytes via Python sockets.
+
 *(More challenges will be added as the repository grows.)*
 
 ---
 
 ## 🛠️ Tools & Techniques
-- Wireshark & packet filtering  
-- Hex editors & string decoding  
-- Linux CLI utilities  
-- Cryptography basics (hashing, encoding)  
-- Web exploitation methods (Cookie manipulation, Session Hijacking)  
-- Python socket scripting  
-- Buffer overflow exploitation in C binaries
-- Express.js request handling & JSON manipulation  
-- Input validation bypass techniques  
-- Type confusion exploitation in JavaScript
-- PowerShell reverse engineering & deobfuscation  
-- CyberChef for decoding and analysis  
-- Steganography tools (stegOnline, steghide, zsteg, binwalk)  
-- Bit plane analysis of images
-  
+
+### Network & Forensics
+* Wireshark & packet filtering
+* DNS Tunneling detection
+* Hex editors & string decoding
+* CyberChef for decoding and analysis
+
+### Web Exploitation
+* Cookie manipulation & Session Hijacking
+* Server-Side Template Injection (SSTI) & RCE
+* Express.js request handling & JSON manipulation
+* Input validation bypass & Type confusion exploitation
+
+### Binary Analysis & Reverse Engineering
+* Linux binary symbol analysis (`nm`, `objdump`)**
+* Buffer overflow exploitation in C binaries (off-by-one)
+* PowerShell reverse engineering & deobfuscation
+
+### Programming & Cryptography
+* Python socket programming for dynamic network automation**
+* Understanding Endianness (Little-Endian memory mapping)**
+* Cryptography basics (hashing, encoding, ROT13)
+* Steganography tools (`stegOnline`, `steghide`, `zsteg`, `binwalk`) with Bit plane analysis
 ---
 
 ## 🎯 Purpose
