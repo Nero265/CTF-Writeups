@@ -1,6 +1,6 @@
 # CTF Writeups
 
-A collection of Capture the Flag (CTF) challenge solutions, covering topics such as **network forensics, cryptography, web exploitation, and binary analysis**.  
+A collection of Capture the Flag (CTF) challenge solutions, covering topics such as **network forensics, cryptography, web exploitation, steganography, general skills, and binary analysis**.  
 Each folder contains a dedicated writeup with methodology, tools used, and final flag extraction.
 
 ---
