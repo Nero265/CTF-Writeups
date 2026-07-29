@@ -24,7 +24,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   DNS tunneling challenge — detecting exfiltrated data through custom queries.
 - **06-hidden-cat**  
   Steganography challenge — extracting hidden flag from PNG image using LSB bit plane analysis.
-
+- - **07-git-history-forensics**  
+Git repository forensics — recovering a dangling commit removed from history to extract leaked production credentials.
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
   Binary exploitation challenge — abusing off-by-one overflow in C struct to gain admin shell.
