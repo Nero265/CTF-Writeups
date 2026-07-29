@@ -9,6 +9,5 @@ timestamp_utc,artifact,source_key,event
 2026-06-18 13:24:37,ComDlg32,Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\FirstFolder,7-Zip common save dialog interaction
 2026-06-18 13:24:55,ComDlg32 / OpenSavePidlMRU,Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU\tar,Archive saved: C:\Users\Public\Pictures\shardchain.tar
 2026-06-18 13:25:06,7-Zip Compression,Software\7-Zip\Compression,Compression settings last written (archive finalized)
-2026-06-18 13:26:47,7-Zip FM,Software\7-Zip\FM,"FM key last write - full FolderHistory captured (Registry\shard_storage\ShardKeepass_FirstMark, oath_records_cinderbound_vol2.zip\...\saltoaths_secretive)"2026-06-18 13:42:07,ExtractionWizard,Software\Microsoft\Windows\CurrentVersion\Explorer\ExtractionWizard,Extraction wizard interaction (post-incident acquisition prep)
-2026-06-18 13:42:15,UserAssist,Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist,Executed C:\Users\vmarr\Desktop\KAPE\KAPE\gkape.exe (forensic acquisition)
+2026-06-18 13:26:47,7-Zip FM,Software\7-Zip\FM,"FM key last write - full FolderHistory captured (Registry\shard_storage\ShardKeepass_FirstMark, oath_records_cinderbound_vol2.zip\...\saltoaths_secretive)"2026-06-18 13:42:15,UserAssist,Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist,Executed C:\Users\vmarr\Desktop\KAPE\KAPE\gkape.exe (forensic acquisition)
 2026-06-18 13:42:24,RecentDocs,Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,RecentDocs key last write (KAPE / Capture entries added)
