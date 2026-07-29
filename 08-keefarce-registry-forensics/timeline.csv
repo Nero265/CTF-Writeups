@@ -1,0 +1,15 @@
+timestamp_utc,artifact,source_key,event
+2026-06-18 12:16:55,UserAssist,Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist,Executed C:\Users\vmarr\Downloads\KeePass-2.61.1-Setup.exe
+2026-06-18 12:32:19,UserAssist,Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist,Executed PowerShell_ISE.exe (KeeFarce staging)
+2026-06-18 13:13:16,UserAssist,Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist,Executed 7-Zip\7zFM.exe
+2026-06-18 13:15:15,7-Zip Extraction,Software\7-Zip\Extraction\PathHistory,Extraction path recorded: C:\Users\vmarr\AppData\Local\Temp\writ\KeeFarce\
+2026-06-18 13:18:23,RecentDocs,Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.txt,Accessed shard_ref_011_ember_court_piece.txt and marr_working_notes_lowtide.txt
+2026-06-18 13:19:11,UserAssist,Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist,Windows Terminal executed (x3)
+2026-06-18 13:20:32,TypedPaths,Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths,Path typed in Explorer: C:\Users\Public\Music\saltwork
+2026-06-18 13:24:37,ComDlg32,Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\FirstFolder,7-Zip common save dialog interaction
+2026-06-18 13:24:55,ComDlg32 / OpenSavePidlMRU,Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU\tar,Archive saved: C:\Users\Public\Pictures\shardchain.tar
+2026-06-18 13:25:06,7-Zip Compression,Software\7-Zip\Compression,Compression settings last written (archive finalized)
+2026-06-18 13:26:47,7-Zip FM,Software\7-Zip\FM,FM key last write - full FolderHistory captured (Registry\shard_storage\ShardKeepass_FirstMark, oath_records_cinderbound_vol2.zip\...\saltoaths_secretive)
+2026-06-18 13:42:07,ExtractionWizard,Software\Microsoft\Windows\CurrentVersion\Explorer\ExtractionWizard,Extraction wizard interaction (post-incident acquisition prep)
+2026-06-18 13:42:15,UserAssist,Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist,Executed C:\Users\vmarr\Desktop\KAPE\KAPE\gkape.exe (forensic acquisition)
+2026-06-18 13:42:24,RecentDocs,Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,RecentDocs key last write (KAPE / Capture entries added)
