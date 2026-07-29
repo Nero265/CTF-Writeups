@@ -1,6 +1,7 @@
 # Git History Forensics — Force Push
 
 **Category:** Forensics
+
 **Difficulty:** Easy
 
 ## Scenario
