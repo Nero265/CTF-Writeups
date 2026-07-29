@@ -1,8 +1,8 @@
-# The Compressed Truth — Windows Registry Forensics
+# The Compressed Truth — Windows Registry Forensics    
 
-**Category:** Forensics
-**Difficulty:** Easy
-**Artifacts provided:** Partial KAPE collection (`NTUSER.DAT` hives for 3 users, `SYSTEM32\config\DEFAULT` hive)
+**Category:** Forensics    
+**Difficulty:** Easy    
+**Artifacts provided:** Partial KAPE collection (`NTUSER.DAT` hives for 3 users, `SYSTEM32\config\DEFAULT` hive)    
 
 ---
 
