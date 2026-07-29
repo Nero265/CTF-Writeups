@@ -26,7 +26,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Steganography challenge — extracting hidden flag from PNG image using LSB bit plane analysis.
 - **07-git-history-forensics**  
 Git repository forensics — recovering a dangling commit removed from history to extract leaked production credentials.
-- **08-keefarce-registry-forensics** - Windows Registry forensics — reconstructing a credential-theft and data-exfiltration timeline from NTUSER.DAT hives (UserAssist, RecentDocs, 7-Zip MRU keys) after identifying a KeeFarce memory-dumping attack against KeePass.
+- **08-keefarce-registry-forensics** — Windows Registry forensics — reconstructing a credential-theft and data-exfiltration timeline from NTUSER.DAT hives (UserAssist, RecentDocs, 7-Zip MRU keys) after identifying a KeeFarce memory-dumping attack against KeePass.
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
   Binary exploitation challenge — abusing off-by-one overflow in C struct to gain admin shell.
