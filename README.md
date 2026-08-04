@@ -16,6 +16,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Identifying Server-Side Template Injection (SSTI) in a Flask/Jinja2 application and escalating it to Remote Code Execution (RCE) to read server files.
 - **04-web-len5**  
   Web exploitation challenge — exploiting type confusion in Express.js validation.
+- **[picoCTF - Credential Stuffing](./picoCTF/Web-Exploitation/Credential-Stuffing)**  
+  Automating login brute-forcing with leaked credential dumps over raw TCP sockets; debugging false positives from partial reads and connection resets under concurrency.
 
 ### 🔍 Forensics & Steganography
 - **01-ftp-forensics**  
