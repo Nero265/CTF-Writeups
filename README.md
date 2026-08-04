@@ -63,6 +63,7 @@ Git repository forensics — recovering a dangling commit removed from history t
 * Server-Side Template Injection (SSTI) & RCE
 * Express.js request handling & JSON manipulation
 * Input validation bypass & Type confusion exploitation
+* Credential stuffing & automated login brute-forcing via raw sockets
 
 ### Binary Analysis & Reverse Engineering
 * Linux binary symbol analysis (`nm`, `objdump`)**
