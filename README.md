@@ -18,6 +18,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Web exploitation challenge — exploiting type confusion in Express.js validation.
 - **[picoCTF - Credential Stuffing](./picoCTF/Web-Exploitation/Credential-Stuffing)**  
   Automating login brute-forcing with leaked credential dumps over raw TCP sockets; debugging false positives from partial reads and connection resets under concurrency.
+- **[picoCTF - Cookies](./picoCTF/Web-Exploitation/Cookies)**  
+  Enumerating a client-controlled cookie value used as an unvalidated server-side array index to leak the flag.
 
 ### 🔍 Forensics & Steganography
 - **01-ftp-forensics**  
