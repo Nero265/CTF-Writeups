@@ -20,6 +20,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Automating login brute-forcing with leaked credential dumps over raw TCP sockets; debugging false positives from partial reads and connection resets under concurrency.
 - **[picoCTF - Cookies](./picoCTF/Web-Exploitation/Cookies)**  
   Enumerating a client-controlled cookie value used as an unvalidated server-side array index to leak the flag.
+- **[picoCTF - n0s4n1ty 1](./picoCTF/Web-Exploitation/n0s4n1ty-1)**  
+  Exploiting an unrestricted file upload to plant a PHP webshell, then escalating via a misconfigured passwordless `sudo` to read the root flag.
 
 ### 🔍 Forensics & Steganography
 - **01-ftp-forensics**  
@@ -66,6 +68,8 @@ Git repository forensics — recovering a dangling commit removed from history t
 * Express.js request handling & JSON manipulation
 * Input validation bypass & Type confusion exploitation
 * Credential stuffing & automated login brute-forcing via raw sockets
+* Unrestricted file upload → PHP webshell (RCE)
+* Privilege escalation via misconfigured `sudo` (`NOPASSWD: ALL`)
 
 ### Binary Analysis & Reverse Engineering
 * Linux binary symbol analysis (`nm`, `objdump`)**
