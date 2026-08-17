@@ -23,7 +23,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 - **[picoCTF - n0s4n1ty 1](./picoCTF/Web-Exploitation/n0s4n1ty-1)**  
   Exploiting an unrestricted file upload to plant a PHP webshell, then escalating via a misconfigured passwordless `sudo` to read the root flag.
 
-### ~M Cryptography
+### 🔐 Cryptography
 - **[picoCTF - New Caesar](./picoCTF/Cryptography/new-caesar)**  
   Reversing a custom Base16 encoding paired with a single-character Caesar shift; exploiting the tiny 16-value keyspace via brute force to recover the flag.
 
@@ -81,10 +81,10 @@ Git repository forensics — recovering a dangling commit removed from history t
 * PowerShell reverse engineering & deobfuscation
 
 ### Programming & Cryptography
-* Python socket programming for dynamic network automation**
-* Understanding Endianness (Little-Endian memory mapping)**
-* Cryptography basics (hashing, encoding, ROT13)**
-* Custom encoding schemes & Caesar cipher brute-forcing (small keyspace analysis)**
+* Python socket programming for dynamic network automation
+* Understanding Endianness (Little-Endian memory mapping)
+* Cryptography basics (hashing, encoding, ROT13)
+* Custom encoding schemes & Caesar cipher brute-forcing (small keyspace analysis)
 * Steganography tools (`stegOnline`, `steghide`, `zsteg`, `binwalk`) with Bit plane analysis
 ---
 
