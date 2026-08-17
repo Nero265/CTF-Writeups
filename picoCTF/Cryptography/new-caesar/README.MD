@@ -1,8 +1,8 @@
 # New Caesar
 
-**Category:** Cryptography
-**Platform:** picoCTF
-**Tools:** Python
+**Category:** Cryptography  
+**Platform:** picoCTF  
+**Tools:** Python  
 
 ## Recon
 
