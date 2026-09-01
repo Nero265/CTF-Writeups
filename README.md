@@ -50,6 +50,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Simulated rogue cell tower detection — identifying a fake PLMN beacon and decrypting IMSI-derived XOR-encoded exfiltrated data from HTTP traffic.
 - **[picoCTF - Flags are Stepic](./picoCTF/Forensics/flags-are-stepic)**  
   LSB steganography — extracting a flag hidden in an oversized PNG using the Python `stepic` library.
+- **[picoCTF - CanYouSee](./picoCTF/Forensics/can-you-see)**  
+  JPEG metadata forensics — flag hidden in Base64-encoded EXIF `Attribution URL` field.
 
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
@@ -72,6 +74,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * DNS Tunneling detection
 * Hex editors & string decoding
 * CyberChef for decoding and analysis
+* exiftool for metadata
 
 ### Git & Version Control Forensics
 * `git log --all` for uncovering commits across all branches
