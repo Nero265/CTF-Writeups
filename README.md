@@ -48,7 +48,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Git repository forensics — recovering a flag from a dangling commit unreachable via `git log --all`, using `git fsck --unreachable`.
 - **[picoCTF - Rogue Tower](./picoCTF/Forensics/rogue-tower)**  
   Simulated rogue cell tower detection — identifying a fake PLMN beacon and decrypting IMSI-derived XOR-encoded exfiltrated data from HTTP traffic.
-
+- **[picoCTF - Flags are Stepic](./picoCTF/Forensics/flags-are-stepic)**  
+  LSB steganography — extracting a flag hidden in an oversized PNG using the Python `stepic` library.
 
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
@@ -102,7 +103,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * Understanding Endianness (Little-Endian memory mapping)
 * Cryptography basics (hashing, encoding, ROT13)
 * Custom encoding schemes & Caesar cipher brute-forcing (small keyspace analysis)
-* Steganography tools (`stegOnline`, `steghide`, `zsteg`, `binwalk`) with Bit plane analysis
+* Steganography tools (`stegOnline`, `steghide`, `zsteg`, `binwalk`, `stepic`) with bit plane and LSB (Least Significant Bit) analysis
 ---
 
 ## 🎯 Purpose
