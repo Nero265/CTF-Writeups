@@ -74,7 +74,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * DNS Tunneling detection
 * Hex editors & string decoding
 * CyberChef for decoding and analysis
-* exiftool for metadata
+* `exiftool` for metadata
 
 ### Git & Version Control Forensics
 * `git log --all` for uncovering commits across all branches
