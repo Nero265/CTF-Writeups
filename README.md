@@ -46,6 +46,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Git repository forensics — recovering a flag hidden inside a commit message rather than file content.
 - **[picoCTF - Forensics Git 2](./picoCTF/Forensics/forensics-git-2)**  
   Git repository forensics — recovering a flag from a dangling commit unreachable via `git log --all`, using `git fsck --unreachable`.
+- **[picoCTF - Rogue Tower](./picoCTF/Forensics/rogue-tower)**  
+  Simulated rogue cell tower detection — identifying a fake PLMN beacon and decrypting IMSI-derived XOR-encoded exfiltrated data from HTTP traffic.
 
 
 ### ⚙️ Binary Exploitation & Reverse Engineering
