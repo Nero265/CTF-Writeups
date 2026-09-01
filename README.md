@@ -42,6 +42,9 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Encoded binary data disguised with a misleading extension
 - **[picoCTF - Forensics Git 1](./picoCTF/Forensics/forensics-git-1)**  
   Git repository forensics — recovering a flag from a deleted file via commit history (`git log --all`, `git show`).
+- **[picoCTF - Forensics Git 0](./picoCTF/Forensics/forensics-git-0)**  
+  Git repository forensics — recovering a flag hidden inside a commit message rather than file content.
+
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
   Binary exploitation challenge — abusing off-by-one overflow in C struct to gain admin shell.
