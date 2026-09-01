@@ -1,7 +1,7 @@
 # Forensics Git 0 — picoCTF 2026
  
 **Category:** Forensics  
-**Difficulty:** Easy/Medium  
+**Difficulty:** Medium  
 **Platform:** picoCTF  
 **Tools:** `losetup`, `mount`, `fdisk`, `git`  
  
