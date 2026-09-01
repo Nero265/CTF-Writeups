@@ -44,6 +44,9 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Git repository forensics — recovering a flag from a deleted file via commit history (`git log --all`, `git show`).
 - **[picoCTF - Forensics Git 0](./picoCTF/Forensics/forensics-git-0)**  
   Git repository forensics — recovering a flag hidden inside a commit message rather than file content.
+- **[picoCTF - Forensics Git 2](./picoCTF/Forensics/forensics-git-2)**  
+  Git repository forensics — recovering a flag from a dangling commit unreachable via `git log --all`, using `git fsck --unreachable`.
+
 
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
