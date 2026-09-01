@@ -40,6 +40,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Windows Registry forensics — reconstructing a credential-theft and data-exfiltration timeline from NTUSER.DAT hives (UserAssist, RecentDocs, 7-Zip MRU keys) after identifying a KeeFarce memory-dumping attack against KeePass.
 - **[picoCTF - Flag in Flame](./picoCTF/Forensics/Flag%20in%20Flame)**  
   Encoded binary data disguised with a misleading extension
+- **[picoCTF - Forensics Git 1](./picoCTF/Forensics/forensics-git-1)**  
+  Git repository forensics — recovering a flag from a deleted file via commit history (`git log --all`, `git show`).
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
   Binary exploitation challenge — abusing off-by-one overflow in C struct to gain admin shell.
@@ -61,6 +63,11 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * DNS Tunneling detection
 * Hex editors & string decoding
 * CyberChef for decoding and analysis
+
+### Git & Version Control Forensics
+* `git log --all` for uncovering commits across all branches
+* `git show <commit>` for inspecting historical file contents without checkout
+* Disk image mounting via `losetup` + `mount -o ro` for read-only forensic analysis
 
 ### Windows REgistry & Host Forensics
 * Windows Registry hive parsing (regipy, RegRipper)
