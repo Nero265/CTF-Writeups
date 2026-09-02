@@ -52,6 +52,10 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   LSB steganography — extracting a flag hidden in an oversized PNG using the Python `stepic` library.
 - **[picoCTF - CanYouSee](./picoCTF/Forensics/can-you-see)**  
   JPEG metadata forensics — flag hidden in Base64-encoded EXIF `Attribution URL` field.
+- **[picoCTF - RED](./picoCTF/Forensics/red)**  
+  LSB steganography — recovering a Base64-encoded flag hidden in the RGBA pixel data of a PNG using zsteg, after a misleading "Poem" metadata chunk red herring.
+- **[picoCTF - hideme](./picoCTF/Forensics/hideme)**  
+  File carving with foremost — recovering a ZIP archive appended after a PNG's IEND chunk, extracting a nested "flag.png" hidden inside.
 
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
@@ -75,6 +79,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * Hex editors & string decoding
 * CyberChef for decoding and analysis
 * `exiftool` for metadata
+* `foremost` to carve out embedded file signatures from pictures
 
 ### Git & Version Control Forensics
 * `git log --all` for uncovering commits across all branches
