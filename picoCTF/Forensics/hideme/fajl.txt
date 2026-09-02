@@ -1,0 +1,83 @@
+┌──(kali㉿kali)-[~/…/CTF-Writeups/picoCTF/Forensics/hideme]
+└─$ zsteg flag.png  
+[?] 3191 bytes of extra data after image end (IEND), offset = 0x9b3b
+extradata:0         .. file: Zip archive data, made by v3.0 UNIX, extract using at least v1.0, last modified Mar 16 2023 02:01:52, uncompressed size 0, method=store                                      
+    00000000: 50 4b 03 04 0a 00 00 00  00 00 3a 10 70 56 00 00  |PK........:.pV..|
+    00000010: 00 00 00 00 00 00 00 00  00 00 07 00 1c 00 73 65  |..............se|
+    00000020: 63 72 65 74 2f 55 54 09  00 03 8f 78 12 64 8f 78  |cret/UT....x.d.x|
+    00000030: 12 64 75 78 0b 00 01 04  00 00 00 00 04 00 00 00  |.dux............|
+    00000040: 00 50 4b 03 04 14 00 00  00 08 00 3a 10 70 56 67  |.PK........:.pVg|
+    00000050: 45 23 b5 35 0b 00 00 d0  0b 00 00 0f 00 1c 00 73  |E#.5...........s|
+    00000060: 65 63 72 65 74 2f 66 6c  61 67 2e 70 6e 67 55 54  |ecret/flag.pngUT|
+    00000070: 09 00 03 8f 78 12 64 8f  78 12 64 75 78 0b 00 01  |....x.d.x.dux...|
+    00000080: 04 00 00 00 00 04 00 00  00 00 cd 56 59 3c 14 fc  |...........VY<..|
+    00000090: 1a fe 87 b2 26 1f 22 5b  a3 65 1a 59 c6 30 76 33  |....&."[.e.Y.0v3|
+    000000a0: c4 47 92 35 44 f6 35 bb  6c 43 1a 65 64 49 85 10  |.G.5D.5.lC.edI..|
+    000000b0: 45 d9 3e 6a ec 63 9d 21  64 df 69 08 23 fb 12 45  |E.>j.c.!d.i.#..E|
+    000000c0: f6 65 2c 8d 8a 33 e7 77  ae ce c5 b9 3f ef c5 fb  |.e,..3.w....?...|
+    000000d0: bc db 73 f7 fe 9e df f3  cc d8 50 e7 34 9b 20 1b  |..s.......P.4. .|
+    000000e0: 00 e0 b4 ee 0d 2d 13 00  18 ee d0 6b 59 2e 7a 02  |.....-.....kY.z.|
+    000000f0: 7b 3e 57 cc e9 c0 e4 a6  61 a0 01 40 45 02 fb 6f  |{>W.....a..@E..o|
+chunk:0:IHDR        .. file: Adobe Photoshop Color swatch, version 0, 512 colors; 1st RGB space (0), w 0x1f8, x 0x806, y 0, z 0; 2nd RGB space (0), w 0, x 0, y 0, z 0                                    
+                                                                                                     
+┌──(kali㉿kali)-[~/…/CTF-Writeups/picoCTF/Forensics/hideme]
+└─$ foremost flag.png                                    
+Processing: flag.png
+|foundat=secret/UT
+foundat=secret/flag.pngUT
+*|
+                                                                                                     
+┌──(kali㉿kali)-[~/…/CTF-Writeups/picoCTF/Forensics/hideme]
+└─$ ls
+flag.png  output
+                                                                                                     
+┌──(kali㉿kali)-[~/…/CTF-Writeups/picoCTF/Forensics/hideme]
+└─$ cd output     
+                                                                                                     
+┌──(kali㉿kali)-[~/…/picoCTF/Forensics/hideme/output]
+└─$ ls
+audit.txt  png  zip
+                                                                                                     
+┌──(kali㉿kali)-[~/…/picoCTF/Forensics/hideme/output]
+└─$ cd zip   
+                                                                                                     
+┌──(kali㉿kali)-[~/…/Forensics/hideme/output/zip]
+└─$ ls
+00000077.zip
+                                                                                                     
+┌──(kali㉿kali)-[~/…/Forensics/hideme/output/zip]
+└─$ 7z x 00000077.zip 
+
+7-Zip 26.01 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-04-27
+ 64-bit locale=en_US.UTF-8 Threads:2 OPEN_MAX:4096, ASM
+
+Scanning the drive for archives:
+1 file, 3191 bytes (4 KiB)
+
+Extracting archive: 00000077.zip
+--
+Path = 00000077.zip
+Type = zip
+Physical Size = 3191
+
+Everything is Ok
+
+Folders: 1
+Files: 1
+Size:       3024
+Compressed: 3191
+                                                                                                     
+┌──(kali㉿kali)-[~/…/Forensics/hideme/output/zip]
+└─$ ls
+00000077.zip  secret
+                                                                                                     
+┌──(kali㉿kali)-[~/…/Forensics/hideme/output/zip]
+└─$ cd secret       
+                                                                                                     
+┌──(kali㉿kali)-[~/…/hideme/output/zip/secret]
+└─$ ls
+flag.png
+                                                                                                     
+┌──(kali㉿kali)-[~/…/hideme/output/zip/secret]
+└─$ eog flag.png 
+
