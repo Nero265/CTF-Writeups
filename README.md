@@ -58,6 +58,9 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   File carving with foremost — recovering a ZIP archive appended after a PNG's IEND chunk, extracting a nested "flag.png" hidden inside.
 - **[picoCTF - Timeline 1](./picoCTF/Forensics/timeline-1)**  
   Ext4 disk image timeline analysis with The Sleuth Kit (`fls`, `mactime`, `icat`) — isolating a planted file via MACB timestamp anomalies and extracting a Base64-encoded flag by inode.
+- **[picoCTF - Blast from the Past](./picoCTF/Forensics/blast-from-the-past)**  
+  EXIF timestamp forgery — rewriting DateTime/SubSecTime fields with `exiftool` and a hex editor, then diagnosing and repairing a corrupted JPEG SOI marker caused by an off-by-one hex edit.
+
 
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
