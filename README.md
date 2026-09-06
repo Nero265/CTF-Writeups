@@ -74,6 +74,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
  ### 🧠 General Skills & Automation
 * **picoCTF - Bytemancy 3** - Reverse engineering and network automation challenge — extracting function memory addresses from a compiled binary and automating dynamic responses with raw Little-Endian bytes via Python sockets.
 * **[picoCTF - Collaborative Development](./picoCTF/General-Skills/collaborative-development)** — Git branch archaeology: reconstructing a flag scattered across three unmerged `feature/*` branches, each holding one fragment of a `print()` statement.
+* **[picoCTF - Special](./picoCTF/General-Skills/special)** — Reverse-engineering a custom shell's spell-check/autocorrect input filter through systematic token probing, then bypassing it via a slash-containing path token that escapes correction entirely.
 
 *(More challenges will be added as the repository grows.)*
 
@@ -124,6 +125,9 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * Cryptography basics (hashing, encoding, ROT13)
 * Custom encoding schemes & Caesar cipher brute-forcing (small keyspace analysis)
 * Steganography tools (`stegOnline`, `steghide`, `zsteg`, `binwalk`, `stepic`) with bit plane and LSB (Least Significant Bit) analysis
+
+### Sandbox Evasion
+* Black-box behavioral probing of custom restricted shells — systematic single-token testing to reverse-engineer an input filter's exact rules before crafting a bypass
 ---
 
 ## 🎯 Purpose
