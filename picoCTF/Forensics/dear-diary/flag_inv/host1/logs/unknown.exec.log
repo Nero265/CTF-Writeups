@@ -1,0 +1,59 @@
+Wed Sep  2 15:16:09 2026: '/usr/bin/img_stat' -t "/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/"
+Wed Sep  2 15:16:39 2026: '/usr/bin/img_stat' -t "/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/disk.flag.img"
+Wed Sep  2 15:16:39 2026: '/usr/bin/mmstat' -i raw "/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/disk.flag.img"
+Wed Sep  2 15:16:39 2026: '/usr/bin/mmls' -a -i raw -aM -t dos -r "/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/disk.flag.img"
+Wed Sep  2 15:16:39 2026: '/usr/bin/fsstat' -o 2048 -i raw -t "/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/disk.flag.img"
+Wed Sep  2 15:16:39 2026: '/usr/bin/fsstat' -o 616448 -i raw -t "/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/disk.flag.img"
+Wed Sep  2 15:16:39 2026: '/usr/bin/fsstat' -o 1140736 -i raw -t "/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/disk.flag.img"
+Wed Sep  2 15:17:05 2026: '/usr/bin/img_stat' -t "/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/disk.flag.img"
+Wed Sep  2 15:17:05 2026: '/usr/bin/fsstat' -o 2048 -i raw -f ext "/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/disk.flag.img"
+Wed Sep  2 15:17:05 2026: '/usr/bin/fsstat' -o 1140736 -i raw -f ext "/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/disk.flag.img"
+Wed Sep  2 15:17:05 2026: /bin/ln -s '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/disk.flag.img' '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img'
+Wed Sep  2 15:17:31 2026: '/usr/bin/mmls' -o 0 -i raw -t dos -r '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img'
+Wed Sep  2 15:18:01 2026: '/usr/bin/blkls' -e -f raw -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' | '/usr/bin/srch_strings' -a -t d | '/bin/grep'  '\.txt'
+Wed Sep  2 15:18:24 2026: '/usr/bin/blkls' -e -f raw -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' | '/usr/bin/srch_strings' -a -t d | '/bin/grep' -i '\.txt'
+Wed Sep  2 15:18:37 2026: '/usr/bin/mmls' -o 0 -i raw -t dos -r '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img'
+Wed Sep  2 15:19:03 2026: '/usr/bin/blkls' -e -f raw -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' | '/usr/bin/srch_strings' -a -t d -3 | '/bin/grep'  'txt'
+Wed Sep  2 15:19:42 2026: '/usr/bin/blkls' -e -f raw -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' | '/usr/bin/srch_strings' -a -t d -e l -3 | '/bin/grep'  'txt'
+Wed Sep  2 15:20:32 2026: '/usr/bin/blkls' -e -f raw -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' | '/usr/bin/srch_strings' -a -t d | '/bin/grep'  '\.txt'
+Wed Sep  2 15:21:14 2026: '/usr/bin/blkls' -e -f raw -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' | '/usr/bin/srch_strings' -a -t d -e l | '/bin/grep'  '\.txt'
+Wed Sep  2 15:22:41 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1171940 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:22:41 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1171940 1
+Wed Sep  2 15:22:46 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423302 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:22:46 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423302 1
+Wed Sep  2 15:22:48 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423328 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:22:48 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423328 1
+Wed Sep  2 15:22:50 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423344 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:22:50 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423344 1
+Wed Sep  2 15:22:51 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423356 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:22:51 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423356 1
+Wed Sep  2 15:22:56 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423328 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:22:56 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423328 1
+Wed Sep  2 15:22:58 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423344 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:22:58 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423344 1
+Wed Sep  2 15:22:59 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423328 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:22:59 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423328 1
+Wed Sep  2 15:23:00 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423344 1
+Wed Sep  2 15:23:00 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423344 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:23:26 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423328 1
+Wed Sep  2 15:23:26 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423328 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:23:26 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423344 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:23:26 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423344 1
+Wed Sep  2 15:23:28 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423356 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:23:28 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423356 1
+Wed Sep  2 15:23:30 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423374 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:23:30 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423374 1
+Wed Sep  2 15:23:39 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423392 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:23:39 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423392 1
+Wed Sep  2 15:23:46 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423410 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:23:47 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423410 1
+Wed Sep  2 15:23:55 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423422 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:23:55 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423422 1
+Wed Sep  2 15:24:03 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423440 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:24:03 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423440 1
+Wed Sep  2 15:24:10 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423452 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:24:10 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423452 1
+Wed Sep  2 15:24:15 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423470 | '/usr/bin/file' -z -b -
+Wed Sep  2 15:24:15 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423470 1
+Wed Sep  2 15:24:20 2026: '/usr/bin/blkcat' -f raw  -a -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423488 1
+Wed Sep  2 15:24:20 2026: '/usr/bin/blkcat' -f raw  -o 0 -i raw '/home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/flag_inv/host1/images/disk.flag.img' 1423488 | '/usr/bin/file' -z -b -

@@ -1,0 +1,9 @@
+Wed Sep  2 15:14:50 2026: Host host1 added to case flag_inv
+Wed Sep  2 15:14:54 2026: Host host1 opened by unknown
+Wed Sep  2 15:17:05 2026: Sym Linking image /home/kali/Documents/CTF-Writeups/picoCTF/Forensics/dear-diary/disk.flag.img into flag_inv:host1
+Wed Sep  2 15:17:05 2026: Image added: image img1 raw  images/disk.flag.img
+Wed Sep  2 15:17:05 2026: Volume added: disk  vol1 img1    dos
+Wed Sep  2 15:17:05 2026: Volume added: part  vol2 img1	2048  616447    ext  /1/
+Wed Sep  2 15:17:05 2026: Volume added: part  vol3 img1	616448  1140735    raw  /2/
+Wed Sep  2 15:17:05 2026: Volume added: part  vol4 img1	1140736  2097151    ext  /3/
+Wed Sep  2 15:17:14 2026: Image vol1 opened by unknown

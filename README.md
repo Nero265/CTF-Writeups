@@ -60,6 +60,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Ext4 disk image timeline analysis with The Sleuth Kit (`fls`, `mactime`, `icat`) — isolating a planted file via MACB timestamp anomalies and extracting a Base64-encoded flag by inode.
 - **[picoCTF - Blast from the Past](./picoCTF/Forensics/blast-from-the-past)**  
   EXIF timestamp forgery — rewriting DateTime/SubSecTime fields with `exiftool` and a hex editor, then diagnosing and repairing a corrupted JPEG SOI marker caused by an off-by-one hex edit.
+- **[picoCTF - Dear Diary](./picoCTF/Forensics/dear-diary)**  
+  Raw block-layer keyword search across a partitioned disk image with Autopsy/TSK (`mmls`, `blkls`, `blkcat`) — recovering a flag fragmented across a dozen unlinked, unallocated `file.txt` remnants.
 
 
 ### ⚙️ Binary Exploitation & Reverse Engineering
@@ -86,6 +88,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * `exiftool` for metadata
 * `foremost` to carve out embedded file signatures from pictures
 * The Sleuth Kit (`fsstat`, `fls`, `mactime`, `icat`) for disk image timeline reconstruction and inode-based file carving
+* Autopsy Forensic Browser (TSK front-end) — partition/volume identification (`mmls`, `fsstat`) and raw block-layer keyword search (`blkls`, `blkcat`) for recovering unlinked/deleted file fragments
 
 ### Git & Version Control Forensics
 * `git log --all` for uncovering commits across all branches

@@ -1,0 +1,26 @@
+Wed Sep  2 15:14:54 2026: Host host1 opened
+Wed Sep  2 15:17:14 2026: vol1: volume opened
+Wed Sep  2 15:18:01 2026: disk.flag.img-disk: ASCII, Unicode, search for \.txt
+Wed Sep  2 15:18:24 2026: disk.flag.img-disk: ASCII, Unicode, Case Insensitive search for \.txt
+Wed Sep  2 15:19:03 2026: disk.flag.img-disk: ASCII, Unicode, search for txt
+Wed Sep  2 15:20:32 2026: disk.flag.img-disk: ASCII, Unicode, search for \.txt
+Wed Sep  2 15:22:41 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1171940
+Wed Sep  2 15:22:46 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423302
+Wed Sep  2 15:22:48 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423328
+Wed Sep  2 15:22:50 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423344
+Wed Sep  2 15:22:51 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423356
+Wed Sep  2 15:22:56 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423328
+Wed Sep  2 15:22:58 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423344
+Wed Sep  2 15:22:59 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423328
+Wed Sep  2 15:23:00 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423344
+Wed Sep  2 15:23:26 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423328
+Wed Sep  2 15:23:26 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423344
+Wed Sep  2 15:23:28 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423356
+Wed Sep  2 15:23:30 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423374
+Wed Sep  2 15:23:39 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423392
+Wed Sep  2 15:23:46 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423410
+Wed Sep  2 15:23:55 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423422
+Wed Sep  2 15:24:03 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423440
+Wed Sep  2 15:24:10 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423452
+Wed Sep  2 15:24:15 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423470
+Wed Sep  2 15:24:20 2026: disk.flag.img-disk: Displaying ASCII contents of Unit 1423488
