@@ -56,6 +56,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   LSB steganography — recovering a Base64-encoded flag hidden in the RGBA pixel data of a PNG using zsteg, after a misleading "Poem" metadata chunk red herring.
 - **[picoCTF - hideme](./picoCTF/Forensics/hideme)**  
   File carving with foremost — recovering a ZIP archive appended after a PNG's IEND chunk, extracting a nested "flag.png" hidden inside.
+- **[picoCTF - Timeline 1](./picoCTF/Forensics/timeline-1)**  
+  Ext4 disk image timeline analysis with The Sleuth Kit (`fls`, `mactime`, `icat`) — isolating a planted file via MACB timestamp anomalies and extracting a Base64-encoded flag by inode.
 
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
@@ -80,6 +82,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * CyberChef for decoding and analysis
 * `exiftool` for metadata
 * `foremost` to carve out embedded file signatures from pictures
+* The Sleuth Kit (`fsstat`, `fls`, `mactime`, `icat`) for disk image timeline reconstruction and inode-based file carving
 
 ### Git & Version Control Forensics
 * `git log --all` for uncovering commits across all branches
