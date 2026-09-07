@@ -62,7 +62,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   EXIF timestamp forgery — rewriting DateTime/SubSecTime fields with `exiftool` and a hex editor, then diagnosing and repairing a corrupted JPEG SOI marker caused by an off-by-one hex edit.
 - **[picoCTF - Dear Diary](./picoCTF/Forensics/dear-diary)**  
   Raw block-layer keyword search across a partitioned disk image with Autopsy/TSK (`mmls`, `blkls`, `blkcat`) — recovering a flag fragmented across a dozen unlinked, unallocated `file.txt` remnants.
-
+- **[picoCTF - m00nwalk](./picoCTF/Forensics/m00nwalk)**  
+  SSTV (Slow-Scan Television) audio decoding — routing a `.wav` file through a virtual PulseAudio sink into QSSTV to render an image transmitted in the style of Apollo-era moon broadcasts.
 
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
@@ -91,6 +92,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * `foremost` to carve out embedded file signatures from pictures
 * The Sleuth Kit (`fsstat`, `fls`, `mactime`, `icat`) for disk image timeline reconstruction and inode-based file carving
 * Autopsy Forensic Browser (TSK front-end) — partition/volume identification (`mmls`, `fsstat`) and raw block-layer keyword search (`blkls`, `blkcat`) for recovering unlinked/deleted file fragments
+* QSSTV for decoding Slow-Scan Television (SSTV) analog image signals from audio
+* PulseAudio virtual audio routing (`pactl`, `pavucontrol`) for piping file-based audio into live-capture tools
 
 ### Git & Version Control Forensics
 * `git log --all` for uncovering commits across all branches
