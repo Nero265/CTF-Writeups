@@ -62,7 +62,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   EXIF timestamp forgery — rewriting DateTime/SubSecTime fields with `exiftool` and a hex editor, then diagnosing and repairing a corrupted JPEG SOI marker caused by an off-by-one hex edit.
 - **[picoCTF - Dear Diary](./picoCTF/Forensics/dear-diary)**  
   Raw block-layer keyword search across a partitioned disk image with Autopsy/TSK (`mmls`, `blkls`, `blkcat`) — recovering a flag fragmented across a dozen unlinked, unallocated `file.txt` remnants.
-- **[picoCTF - m00nwalk](./picoCTF/Forensics/m00nwalk)**  
+- **[picoCTF - m00nwalk](./picoCTF/Forensics/mOOnwalk)**  
   SSTV (Slow-Scan Television) audio decoding — routing a `.wav` file through a virtual PulseAudio sink into QSSTV to render an image transmitted in the style of Apollo-era moon broadcasts.
 
 ### ⚙️ Binary Exploitation & Reverse Engineering
