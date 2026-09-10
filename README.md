@@ -76,6 +76,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * **picoCTF - Bytemancy 3** - Reverse engineering and network automation challenge — extracting function memory addresses from a compiled binary and automating dynamic responses with raw Little-Endian bytes via Python sockets.
 * **[picoCTF - Collaborative Development](./picoCTF/General-Skills/collaborative-development)** — Git branch archaeology: reconstructing a flag scattered across three unmerged `feature/*` branches, each holding one fragment of a `print()` statement.
 * **[picoCTF - Special](./picoCTF/General-Skills/special)** — Reverse-engineering a custom shell's spell-check/autocorrect input filter through systematic token probing, then bypassing it via a slash-containing path token that escapes correction entirely.
+* **[picoCTF - Blame Game](./picoCTF/General-Skills/blame-game)** — Recovering a flag hidden inside a Git commit's author field, buried among hundreds of decoy commits sharing an identical message, using `git blame`.
 
 *(More challenges will be added as the repository grows.)*
 
@@ -101,6 +102,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * Disk image mounting via `losetup` + `mount -o ro` for read-only forensic analysis
 * `git branch -a` for surfacing unmerged/local-only branches holding hidden challenge content
 * `git switch` for traversing between branches to extract fragmented data
+* `git blame` for attributing individual file lines to their originating commit, even when history is padded with hundreds of decoy commits
 
 ### Windows REgistry & Host Forensics
 * Windows Registry hive parsing (regipy, RegRipper)
