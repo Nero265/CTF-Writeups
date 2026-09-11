@@ -22,6 +22,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Enumerating a client-controlled cookie value used as an unvalidated server-side array index to leak the flag.
 - **[picoCTF - n0s4n1ty 1](./picoCTF/Web-Exploitation/n0s4n1ty-1)**  
   Exploiting an unrestricted file upload to plant a PHP webshell, then escalating via a misconfigured passwordless `sudo` to read the root flag.
+- **[picoCTF - Hashgate](./picoCTF/Web-Exploitation/hashgate)**  
+  Brute-forcing an unsalted MD5 hash of a predictable integer user ID to bypass an unauthenticated IDOR and access the admin profile.
 
 ### 🔐 Cryptography
 - **[picoCTF - New Caesar](./picoCTF/Cryptography/new-caesar)**  
@@ -118,6 +120,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * Credential stuffing & automated login brute-forcing via raw sockets
 * Unrestricted file upload → PHP webshell (RCE)
 * Privilege escalation via misconfigured `sudo` (`NOPASSWD: ALL`)
+* IDOR (Insecure Direct Object Reference) exploitation via unsalted hash brute-forcing
 
 ### Binary Analysis & Reverse Engineering
 * Linux binary symbol analysis (`nm`, `objdump`)**
