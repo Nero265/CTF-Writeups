@@ -66,6 +66,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Raw block-layer keyword search across a partitioned disk image with Autopsy/TSK (`mmls`, `blkls`, `blkcat`) — recovering a flag fragmented across a dozen unlinked, unallocated `file.txt` remnants.
 - **[picoCTF - m00nwalk](./picoCTF/Forensics/m00nwalk)**  
   SSTV (Slow-Scan Television) audio decoding — routing a `.wav` file through a virtual PulseAudio sink into QSSTV to render an image transmitted in the style of Apollo-era moon broadcasts.
+- **[picoCTF - m00nwalk2](./picoCTF/Forensics/m00nwalk2)**  
+  Multi-layered audio steganography — decoding three SSTV clue transmissions to piece together a tool, technique hint, and password, then using `steghide` to extract a hidden flag from the original `.wav` file.
 
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
