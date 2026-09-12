@@ -49,7 +49,9 @@ an SSTV decoder in real time, as if it were being received live over radio.
    while QSSTV was set to Receive mode, capturing the signal and rendering the image
    line by line in real time.
 
-6. Once decoding completed, the flag was visible directly on the rendered image:
+   `paplay -d virtual-cable message.wav`
+
+7. Once decoding completed, the flag was visible directly on the rendered image:
 
    ```
    picoCTF{beep_boop_im_in_space}
