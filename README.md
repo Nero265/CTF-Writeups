@@ -52,6 +52,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Simulated rogue cell tower detection — identifying a fake PLMN beacon and decrypting IMSI-derived XOR-encoded exfiltrated data from HTTP traffic.
 - **[picoCTF - Flags are Stepic](./picoCTF/Forensics/flags-are-stepic)**  
   LSB steganography — extracting a flag hidden in an oversized PNG using the Python `stepic` library.
+- **[picoCTF - St3g0](./picoCTF/Forensics/st3g0)**  
+  LSB steganography — recovering a flag embedded across RGB channel bit planes using `zsteg`, after visual inspection in StegOnline.
 - **[picoCTF - CanYouSee](./picoCTF/Forensics/can-you-see)**  
   JPEG metadata forensics — flag hidden in Base64-encoded EXIF `Attribution URL` field.
 - **[picoCTF - RED](./picoCTF/Forensics/red)**  
