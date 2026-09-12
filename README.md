@@ -24,6 +24,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Exploiting an unrestricted file upload to plant a PHP webshell, then escalating via a misconfigured passwordless `sudo` to read the root flag.
 - **[picoCTF - Hashgate](./picoCTF/Web-Exploitation/hashgate)**  
   Brute-forcing an unsalted MD5 hash of a predictable integer user ID to bypass an unauthenticated IDOR and access the admin profile.
+- **[picoCTF - Secret Box](./picoCTF/Web-Exploitation/secret-box)**  
+  Exploiting a raw string-interpolated SQL query in an `INSERT` statement to extract another user's data via `||` concatenation with a subquery, bypassing parameterized-query protections used elsewhere in the app.
 
 ### 🔐 Cryptography
 - **[picoCTF - New Caesar](./picoCTF/Cryptography/new-caesar)**  
@@ -125,6 +127,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * Unrestricted file upload → PHP webshell (RCE)
 * Privilege escalation via misconfigured `sudo` (`NOPASSWD: ALL`)
 * IDOR (Insecure Direct Object Reference) exploitation via unsalted hash brute-forcing
+* SQL Injection via unparameterized query concatenation (INSERT-clause exfiltration using `||` string concat)
 
 ### Binary Analysis & Reverse Engineering
 * Linux binary symbol analysis (`nm`, `objdump`)**
