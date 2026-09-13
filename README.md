@@ -78,7 +78,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Binary exploitation challenge — abusing off-by-one overflow in C struct to gain admin shell.
 - **05-weaponizedkey**  
   Reverse engineering challenge — analyzing obfuscated PowerShell script to reconstruct hidden API key.
-
+- **[Pie Time](picoCTF/Binary%20Exploitation/pie-time)** - PIE bypass via leaked `main()` address; computed `win()`'s runtime address using fixed offsets from `objdump`.
 
  ### 🧠 General Skills & Automation
 * **picoCTF - Bytemancy 3** - Reverse engineering and network automation challenge — extracting function memory addresses from a compiled binary and automating dynamic responses with raw Little-Endian bytes via Python sockets.
@@ -133,6 +133,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * Linux binary symbol analysis (`nm`, `objdump`)**
 * Buffer overflow exploitation in C binaries (off-by-one)
 * PowerShell reverse engineering & deobfuscation
+* PIE (Position Independent Executable) bypass via leaked address + fixed symbol offsets
 
 ### Programming & Cryptography
 * Python socket programming for dynamic network automation
