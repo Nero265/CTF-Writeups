@@ -72,6 +72,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   SSTV (Slow-Scan Television) audio decoding — routing a `.wav` file through a virtual PulseAudio sink into QSSTV to render an image transmitted in the style of Apollo-era moon broadcasts.
 - **[picoCTF - m00nwalk2](./picoCTF/Forensics/m00nwalk2)**  
   Multi-layered audio steganography — decoding three SSTV clue transmissions to piece together a tool, technique hint, and password, then using `steghide` to extract a hidden flag from the original `.wav` file.
+- **[CyberHero - Rocket Science](./CyberHero/Forensics/rocket-science)**  
+  Network + memory forensics — extracting a custom .NET C2 agent's encrypted HTTP payload from a pcap, then reverse-engineering its XOR+AES scheme via Volatility memory dumping and ILSpy decompilation to recover a base64-encoded PDF containing the flag.
 
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
@@ -103,6 +105,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * Autopsy Forensic Browser (TSK front-end) — partition/volume identification (`mmls`, `fsstat`) and raw block-layer keyword search (`blkls`, `blkcat`) for recovering unlinked/deleted file fragments
 * QSSTV for decoding Slow-Scan Television (SSTV) analog image signals from audio
 * PulseAudio virtual audio routing (`pactl`, `pavucontrol`) for piping file-based audio into live-capture tools
+* `tshark -d <port>,<protocol>` decode-as + `--export-objects` for recovering non-standard-port HTTP traffic
+* Volatility 3 (`windows.pslist`, `windows.dlllist --dump`) for isolating and extracting a single process's modules from a full memory image
 
 ### Git & Version Control Forensics
 * `git log --all` for uncovering commits across all branches
@@ -134,6 +138,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * Buffer overflow exploitation in C binaries (off-by-one)
 * PowerShell reverse engineering & deobfuscation
 * PIE (Position Independent Executable) bypass via leaked address + fixed symbol offsets
+* .NET assembly decompilation (`ilspycmd`, project mode + raw IL fallback for async state machines) to recover source-level crypto logic
 
 ### Programming & Cryptography
 * Python socket programming for dynamic network automation
