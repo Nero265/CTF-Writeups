@@ -1,0 +1,18 @@
+$ tshark -r capture.pcapng -Y "http" -T fields -e http.request.full_uri -e http.file_data
+
+# Full output included every OCSP cert-check request to ocsp.pki.goog
+# (irrelevant noise) plus the requests below, which target the internal
+# lab server at 192.168.31.129 and are the ones that matter:
+
+http://192.168.31.129/
+http://192.168.31.129/   <hex-encoded response body — see decode.py, contains PART 1 + base64 PART 2>
+http://192.168.31.129/static/styles.css
+http://192.168.31.129/static/alien_background.jpg
+http://192.168.31.129/static/alien_background.jpg   <404 response — file not found on server>
+http://192.168.31.129/   757365726e616d653d61646d696e2670617373776f72643d2a436f736d69632532365369676e616c2532333432
+  -> decodes to: username=admin&password=*Cosmic&Signal#42   (submitted login form, red herring)
+http://192.168.31.129/home
+http://192.168.31.129/home   <hex-encoded response body — see decode.py, contains PART 3>
+http://192.168.31.129/static/home_styles.css
+http://detectportal.firefox.com/canonical.html      (unrelated Firefox network-check noise)
+http://detectportal.firefox.com/success.txt?ipv4    (unrelated Firefox network-check noise)

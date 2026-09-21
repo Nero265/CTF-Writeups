@@ -1,0 +1,34 @@
+$ capinfos capture.pcapng
+File name:           capture.pcapng
+File type:           Wireshark/... - pcapng
+File encapsulation:  Ethernet
+File timestamp precision:  microseconds (6)
+Packet size limit:   file hdr: (not set)
+Number of packets:   12 k
+File size:           14 MB
+Data size:           14 MB
+Capture duration:    36.268294 seconds
+Earliest packet time: 2024-03-15 19:11:15.568041
+Latest packet time:   2024-03-15 19:11:51.836335
+Data byte rate:      397 kBps
+Data bit rate:       3,178 kbps
+Average packet size: 1110.15 bytes
+Average packet rate: 357 packets/s
+SHA256:              ee9fd1915b0486657f33d594c1eb6c418deeb9e6791081f32dc11936ce056804
+SHA1:                e7fe74d0c033eb2a64307aff7a68e4505dfb1575
+Strict time order:   False
+Capture hardware:    AMD Ryzen 9 6900HS with Radeon Graphics (with SSE4.2)
+Capture oper-sys:    64-bit Windows 10 (22H2), build 19045
+Capture application: Dumpcap (Wireshark) 4.2.3 (v4.2.3-0-ga15d7331476c)
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = \Device\NPF_{3730546B-3101-4D33-B136-BEB2CAFFAE0D}
+                     Description = Ethernet0
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = microseconds (6)
+                     Time ticks per second = 1000000
+                     Time resolution = 0x06
+                     Operating system = 64-bit Windows 10 (22H2), build 19045
+                     Number of stat entries = 1
+                     Number of packets = 12982

@@ -1,0 +1,24 @@
+$ tshark -r capture.pcapng -q -z io,phs
+
+Protocol Hierarchy Statistics
+Filter:
+
+frame                                    frames:12982 bytes:14411932
+  eth                                    frames:12982 bytes:14411932
+    ip                                   frames:12980 bytes:14411830
+      udp                                frames:3613 bytes:3828297
+        ssdp                             frames:2 bytes:422
+        dns                              frames:274 bytes:29357
+        quic                             frames:3334 bytes:3798260
+          quic                           frames:44 bytes:36831
+            quic                         frames:17 bytes:23783
+        data                             frames:3 bytes:258
+      tcp                                frames:9367 bytes:10583533
+        tls                              frames:1700 bytes:1773528
+          tls                            frames:841 bytes:1246878
+        http                             frames:34 bytes:19015
+          ocsp                           frames:18 bytes:11139
+          data-text-lines                frames:7 bytes:4193
+          urlencoded-form                frames:1 bytes:581
+        data                             frames:16 bytes:880
+    arp                                  frames:2 bytes:102
