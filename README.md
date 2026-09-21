@@ -74,6 +74,8 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
   Multi-layered audio steganography — decoding three SSTV clue transmissions to piece together a tool, technique hint, and password, then using `steghide` to extract a hidden flag from the original `.wav` file.
 - **[CyberHero - Rocket Science](./CyberHero/Forensics/rocket-science)**  
   Network + memory forensics — extracting a custom .NET C2 agent's encrypted HTTP payload from a pcap, then reverse-engineering its XOR+AES scheme via Volatility memory dumping and ILSpy decompilation to recover a base64-encoded PDF containing the flag.
+- **[SCC 2024 Quals - Space Echoes](.CyberHero/Forensics/space-echoes)**  
+  PCAP analysis with `tshark` — filtering HTTP traffic from a simulated internal login page, hex-decoding response bodies, and reassembling a three-part flag split across an HTML comment, a base64-encoded input placeholder, and a second HTML comment.
 
 ### ⚙️ Binary Exploitation & Reverse Engineering
 - **03-login-form-bof**  
