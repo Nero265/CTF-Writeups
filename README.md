@@ -89,6 +89,7 @@ Each folder contains a dedicated writeup with methodology, tools used, and final
 * **[picoCTF - Collaborative Development](./picoCTF/General-Skills/collaborative-development)** — Git branch archaeology: reconstructing a flag scattered across three unmerged `feature/*` branches, each holding one fragment of a `print()` statement.
 * **[picoCTF - Special](./picoCTF/General-Skills/special)** — Reverse-engineering a custom shell's spell-check/autocorrect input filter through systematic token probing, then bypassing it via a slash-containing path token that escapes correction entirely.
 * **[picoCTF - Blame Game](./picoCTF/General-Skills/blame-game)** — Recovering a flag hidden inside a Git commit's author field, buried among hundreds of decoy commits sharing an identical message, using `git blame`.
+* **[picoCTF - Don't You Love Banners](./picoCTF/General-Skills/dont-you-love-banners)** — Banner grabbing an SSH identification string to leak a login password, then exploiting a root-owned banner-printing script via a symlink swap to read the protected flag file.
 
 *(More challenges will be added as the repository grows.)*
 
